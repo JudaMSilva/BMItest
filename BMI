@@ -1,0 +1,9 @@
+print('BMI - Body Mass Index')
+weight=float(input('Type you weight in kilos: '))
+height=float(input('Type your height in meters: '))
+bmi=weight/(height**2)
+if bmi >= 25:
+    result=('obese! Get some help, unless you are a bodybuilder!')
+else:
+    result=('just fine! Chill!')
+print('Your BMI is ',bmi,' and you are',result)
